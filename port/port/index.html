@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedro — Desenvolvedor Full-Stack & Analista de TI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">Pedro<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#resume">Resumo</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contato</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="home">
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <div class="hero-badge">Disponível para novos projetos</div>
+        <h1 class="hero-title">
+          Full-Stack<br>
+          <span class="accent">Dev</span> &amp;<br>
+          <span class="outline">IT Analyst</span>
+        </h1>
+        <p class="hero-subtitle">
+          Desenvolvedor full-stack e analista de TI residente em Curitiba, PR.
+          Desenvolvo sistemas web robustos, automatizo processos e mantenho
+          infraestruturas corporativas.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn-primary">Entre em contato</a>
+          <a href="#projects" class="btn-outline">Ver projetos</a>
+        </div>
+      </div>
+      <img src="C:\Users\pedro.montani.BRAFER_NT\Downloads\port\ph.png" class="hero-photo" alt="Pedro">
+    </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">// sobre mim</p>
+        <h2 class="section-title">Quem sou <span>eu</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Prazer! Me chamo Pedro, desenvolvedor full-stack e analista de TI com sede em Curitiba, Paraná.
+            Atuo profissionalmente na área de TI, atualmente na empresa Brafer Construções Metálicas, onde gerencio
+            infraestrutura, suporte a usuários, Active Directory e o ERP TOTVS Protheus.
+          </p>
+          <p>
+            Paralelamente, sou estudante de Desenvolvimento de sistemas - SENAI
+            e atuo como desenvolvedor freelancer full-stack, construindo sistemas web com Flask,
+            Next.js e React, além de integrações e deploys na Railway e Vercel.
+          </p>
+          <p>
+            Entusiasta em unir o universo corporativo de TI com o desenvolvimento de software
+            moderno — seja automatizando processos internos, criando sistemas web do zero ou
+            explorando hardware com Arduino.
+          </p>
+
+          <div class="about-info">
+            <div class="info-item">
+              <div class="info-label">Nome</div>
+              <div class="info-value">Pedro Henrique</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Localização</div>
+              <div class="info-value">Curitiba, PR</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">GitHub</div>
+              <div class="info-value">phz9ra</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Formação</div>
+              <div class="info-value">SENAI Curitiba && UNINTER</div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-link">Entrar em contato <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat-card">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Anos em TI corporativa</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Projetos entregues</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Tecnologias dominadas</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Café consumido</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">// o que eu faço</p>
+        <h2 class="section-title">Meus <span>serviços</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <div class="service-name">Desenvolvimento Web</div>
+          <p class="service-desc">Criação de sistemas e aplicações web completas, responsivas e performáticas com Flask,
+            Next.js e React.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+          <div class="service-name">Back-End & APIs</div>
+          <p class="service-desc">Desenvolvimento de APIs RESTful, integração com bancos de dados relacionais e
+            não-relacionais, deploy em cloud.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+          <div class="service-name">Banco de Dados</div>
+          <p class="service-desc">Modelagem, otimização e administração de bancos de dados MySQL, SQLite e MongoDB.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <div class="service-name">Suporte & TI</div>
+          <p class="service-desc">Administração de redes, Active Directory, suporte técnico avançado, configuração de
+            ERPs e gestão de infraestrutura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESUME ── -->
+  <section id="resume">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">// experiência</p>
+        <h2 class="section-title">Onde já <span>atuei</span></h2>
+      </div>
+      <div class="resume-timeline">
+
+        <div class="resume-item reveal">
+          <div class="resume-date">2025 — Atualmente</div>
+          <div class="resume-company">Brafer Construções Metálicas S/A</div>
+          <div class="resume-role">Analista de TI</div>
+          <p class="resume-desc">
+            Responsável pela gestão de infraestrutura de TI, suporte técnico a usuários, administração do Active
+            Directory,
+            configuração e manutenção do ERP TOTVS Protheus, além de gerenciamento de acessos e
+            coordenação com fornecedores de software.
+          </p>
+          <div class="resume-tags">
+            <span class="tag">TOTVS Protheus</span>
+            <span class="tag">Active Directory</span>
+            <span class="tag">Windows Server</span>
+            <span class="tag">Suporte N2/N3</span>
+          </div>
+        </div>
+
+        <div class="resume-item reveal">
+          <div class="resume-date">2026 — Atualmente</div>
+          <div class="resume-company">SENAI Curitiba</div>
+          <div class="resume-role">Estudante — Desenvolvimento de Sistemas </div>
+          <p class="resume-desc">
+            Formação técnica em desenvolvimento de sistemas e banco de dados, com projetos práticos em
+            Python, Flask, Java, JavaScript, MySQL, MongoDB, além de projetos com hardware (Arduino, sensores
+            ultrassônicos).
+          </p>
+          <div class="resume-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Arduino</span>
+          </div>
+        </div>
+
+        <div class="resume-item reveal">
+          <div class="resume-date">Freelancer</div>
+          <div class="resume-company">Projetos Independentes</div>
+          <div class="resume-role">Desenvolvedor Full-Stack</div>
+          <p class="resume-desc">
+            Desenvolvimento de sistemas SaaS, sites institucionais e aplicações web para clientes variados.
+            Projetos como Cardápio Digital (QR Code para restaurantes) e AL3D Store, com deploy em Railway e Vercel.
+          </p>
+          <div class="resume-tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">React</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Railway</span>
+            <span class="tag">Vercel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">// portfólio</p>
+        <h2 class="section-title">Projetos <span>destaque</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-img"><i class="fa-solid fa-qrcode"></i></div>
+          <div class="project-body">
+            <div class="project-title">Cardápio Digital QR</div>
+            <p class="project-desc">SaaS de cardápio digital via QR Code para restaurantes. Backend em Flask na Railway,
+              frontend em Next.js na Vercel.</p>
+            <div class="resume-tags" style="margin-bottom:16px">
+              <span class="tag">Flask</span><span class="tag">Next.js</span><span class="tag">Railway</span><span
+                class="tag">Vercel</span>
+            </div>
+            <div class="project-links">
+              <a href="https://cardapio-qr.vercel.app" target="_blank" class="project-link"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="https://github.com/phz9ra" target="_blank" class="project-link"><i
+                  class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img"><i class="fa-solid fa-industry"></i></div>
+          <div class="project-body">
+            <div class="project-title">Monitor Industrial em Tempo Real</div>
+            <p class="project-desc">Sistema de monitoramento de produção industrial com Flask, SQLite, sensores HC-SR04
+              (Arduino) e dashboard web em tempo real.</p>
+            <div class="resume-tags" style="margin-bottom:16px">
+              <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Arduino</span><span
+                class="tag">SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/phz9ra/projeto-montagem-industrial" target="_blank" class="project-link"><i
+                  class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img"><i class="fa-solid fa-cube"></i></div>
+          <div class="project-body">
+            <div class="project-title">AL3D Store — Site Institucional</div>
+            <p class="project-desc">Site para empresa de impressão 3D em Curitiba. Design moderno com deploy via GitHub
+              → Vercel e domínio no Registro.br.</p>
+            <div class="resume-tags" style="margin-bottom:16px">
+              <span class="tag">Next.js</span><span class="tag">Vercel</span><span class="tag">v0.dev</span>
+            </div>
+            <div class="project-links">
+              <a href="https://v0-site-al3d-store.vercel.app/" class="project-link"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Visitar site</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" style="background: var(--surface)">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">// tecnologias</p>
+        <h2 class="section-title">Minhas <span>habilidades</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-java"></i></span><span
+            class="skill-name">Java</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-python"></i></span><span
+            class="skill-name">Python</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-solid fa-flask"></i></span><span
+            class="skill-name">Flask</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-react"></i></span><span
+            class="skill-name">React / Next.js</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-js"></i></span><span
+            class="skill-name">JavaScript</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-html5"></i></span><span
+            class="skill-name">HTML5 / CSS3</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-solid fa-database"></i></span><span
+            class="skill-name">MySQL</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-solid fa-leaf"></i></span><span
+            class="skill-name">MongoDB</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-git-alt"></i></span><span
+            class="skill-name">Git / GitHub</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-docker"></i></span><span
+            class="skill-name">Docker</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-solid fa-microchip"></i></span><span
+            class="skill-name">Arduino</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-brands fa-windows"></i></span><span
+            class="skill-name">Active Directory</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-solid fa-gears"></i></span><span
+            class="skill-name">TOTVS Protheus</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-solid fa-cloud"></i></span><span
+            class="skill-name">Railway / Vercel</span></div>
+        <div class="skill-item reveal"><span class="skill-icon"><i class="fa-solid fa-terminal"></i></span><span
+            class="skill-name">Linux / Shell</span></div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">// contato</p>
+        <h2 class="section-title">Vamos <span>conversar</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <div class="contact-info">
+            <h3>Vamos trabalhar juntos?</h3>
+            <p>Estou aberto a novos projetos freelance, colaborações e oportunidades. Manda uma mensagem que respondo
+              rápido.</p>
+          </div>
+          <div class="contact-items">
+            <a href="mailto:montani.dev@gmail.com" class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="contact-item-info">
+                <span class="contact-item-label">Email</span>
+                <span class="contact-item-value">montani.dev@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/phz9ra" target="_blank" class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <div class="contact-item-info">
+                <span class="contact-item-label">GitHub</span>
+                <span class="contact-item-value">github.com/phz9ra</span>
+              </div>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5541995874639" target="_blank" class="contact-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div class="contact-item-info">
+                <span class="contact-item-label">WhatsApp</span>
+                <span class="contact-item-value">+55 (41) XXXXX-XXXX</span>
+              </div>
+            </a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/phz9ra" target="_blank" class="social-link"><i
+                class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/" target="_blank" class="social-link"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5541995874639" target="_blank" class="social-link"><i
+                class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm" data-formspree-id="xdabgwrj"></form>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Nome</label>
+              <input type="text" name="name" class="form-input" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" name="email" class="form-input" placeholder="Digite seu email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Assunto</label>
+            <input type="text" name="subject" class="form-input" placeholder="Digite o assunto" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Mensagem</label>
+            <textarea name="message" class="form-textarea" placeholder="Digite sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar mensagem <i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>Copyright © 2026 <a href="#home">Pedro</a>. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- ── JS ── -->
+  <script>
+    // Navbar scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Hamburger
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => observer.observe(el));
+
+    // Active nav link
+    const sections = document.querySelectorAll('section[id]');
+    const links = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      links.forEach(l => {
+        l.style.color = l.getAttribute('href') === '#' + current
+          ? 'var(--accent)' : '';
+      });
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', async e => {
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector('[type="submit"]');
+      const id = form.dataset.formspreeId;
+
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+      btn.style.opacity = '0.7';
+
+      try {
+        const res = await fetch(`https://formspree.io/f/${id}`, {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: new FormData(form)
+        });
+
+        if (res.ok) {
+          btn.innerHTML = 'Mensagem enviada ✓';
+          btn.style.background = 'var(--accent2)';
+          btn.style.opacity = '1';
+          form.reset();
+          setTimeout(() => {
+            btn.innerHTML = 'Enviar mensagem <i class="fa-solid fa-paper-plane"></i>';
+            btn.style.background = '';
+            btn.disabled = false;
+          }, 4000);
+        } else {
+          throw new Error();
+        }
+      } catch {
+        btn.textContent = 'Erro ao enviar. Tente novamente.';
+        btn.style.background = '#c0392b';
+        btn.style.opacity = '1';
+        btn.disabled = false;
+        setTimeout(() => {
+          btn.innerHTML = 'Enviar mensagem <i class="fa-solid fa-paper-plane"></i>';
+          btn.style.background = '';
+        }, 4000);
+      }
+    });
+  </script>
+</body>
+
+</html>
